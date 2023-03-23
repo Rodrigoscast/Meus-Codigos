@@ -1,0 +1,8 @@
+Rodrigo;17
+Vitoria;16
+Marcela;19
+Fernando;18
+Melissa;16
+Gustavo;27
+Raissa;12
+Pedro;25
