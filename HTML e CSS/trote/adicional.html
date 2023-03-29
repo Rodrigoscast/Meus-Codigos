@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adicional.css">
+</head>
+<body>
+    <h2>Ietns adicionais kit alimentação + suplemento</h2>
+    <div id="container">
+        <div id="check">
+            <div><input onclick="verificacheck('padrao')" type="checkbox" id="padrao"> Conjunto Padrão</div>
+            <div><input onclick="verificacheck('kit')" type="checkbox" id="kit"> Kit Alimentação</div>
+            <div><input onclick="verificacheck('suplemento')" type="checkbox" id="suplemento"> Suplemento</div>
+            <div><input onclick="verificacheck('arroz')" type="checkbox" id="arroz"> Arroz</div>
+        </div>
+        <div id="numeros">
+            <input type="number" id="qtdepadrao" disabled="true">
+            <input type="number" id="qtdekit" disabled="true">
+            <input type="number" id="qtdesuplemento" disabled="true">
+            <input type="number" id="qtdearroz" disabled="true">
+        </div>
+    </div>
+    <div>
+        <button onclick="calcularAdicional()">Calcular Adicional</button>
+    </div>
+    <script src="condicional.js"> </script>
+</body>
+</html>
