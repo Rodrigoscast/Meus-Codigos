@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 023</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="colum">
+        <div id="center">
+            <div>
+                <h2>Código do Produto: <input type="number" id="cod"></h2>
+            </div>
+            <div>
+                <h2>Quantidade do Produto:</h2>
+                <input type="number" id="quant">
+            </div>
+            <button onclick="calcula()">Calcular</button>
+        </div>
+        <table id="result">
+            <tr>
+                <td>Preço por unidade:</td>
+                <td id="precounit"></td>
+            </tr>
+            <tr>
+                <td>Preço total:</td>
+                <td id="precototal"></td>
+            </tr>
+            <tr>
+                <td>Valor do desconto:</td>
+                <td id="desc"></td>
+            </tr>
+            <tr>
+                <td>Preço final:</td>
+                <td id="precofinal"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
